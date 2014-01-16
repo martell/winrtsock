@@ -1,6 +1,6 @@
 winrtsock
 =========
-Copyright (c) 2014 martell malone <martell malone at g mail dot com>
+Copyright (c) 2014 martell malone \<martell malone at g mail dot com\>
 
 Copyright (c) 2013 jmorrill @ codeplex
 
