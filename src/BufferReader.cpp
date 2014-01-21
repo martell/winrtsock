@@ -1,4 +1,4 @@
-#include "pch.h"
+
 #include "include\BufferReader.h"
 
 using namespace Windows::Storage::Streams;

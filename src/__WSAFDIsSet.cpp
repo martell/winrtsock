@@ -1,4 +1,4 @@
-#include "pch.h"
+
 #include "..\include\winrtsock.h"
 
 int __stdcall __WSAFDIsSet(SOCKET fd, fd_set * set)

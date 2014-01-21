@@ -1,4 +1,4 @@
-#include "pch.h"
+
 #include "..\include\winrtsock.h"
 
 u_short __stdcall htons(u_short x)

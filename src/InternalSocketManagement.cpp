@@ -1,4 +1,4 @@
-#include "pch.h"
+
 #include <string>
 #include <wrl.h>
 #include <ppl.h>

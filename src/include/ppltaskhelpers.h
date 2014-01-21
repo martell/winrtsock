@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+
 #include <ppltasks.h>
 #include <agents.h>
 // Creates a task that completes after the specified delay.

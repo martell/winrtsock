@@ -1,4 +1,4 @@
-#include "pch.h"
+
 #include "..\include\winrtsock.h"
 #include "Include\MiscUtils.h"
 #include "Include\InternalSocketManagement.h"

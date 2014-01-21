@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+
 #include "..\..\include\winrtsock.h"
 #include "InternalStreamSocket.h"
 #include "InternalDatagramSocket.h"

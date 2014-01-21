@@ -1,4 +1,4 @@
-#include "pch.h"
+
 #include "..\include\winrtsock.h"
 
 u_short __stdcall ntohs(u_short n)

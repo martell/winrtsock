@@ -1,5 +1,5 @@
 #pragma once
-#include <pch.h>
+
 #include <string>
 #include <wrl.h>
 #include <Robuffer.h>
