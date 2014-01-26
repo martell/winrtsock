@@ -2,6 +2,7 @@ EXPORTS
    WSAStartup
    WSACleanup
    __WSAFDIsSet
+   __beginthreadex
    Sleep
    WSAGetLastError
    WSASetLastError
