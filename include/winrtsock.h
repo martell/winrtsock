@@ -45,7 +45,12 @@ extern "C" {
 #endif
 
 	extern int PASCAL FAR __WSAFDIsSet(SOCKET, fd_set FAR *);
-
+	
+//#ifndef __cplusplus
+	extern void* WINAPI _beginthreadex(LPSECURITY_ATTRIBUTES unusedThreadAttributes, SIZE_T unusedStackSize, LPTHREAD_START_ROUTINE lpStartAddress, LPVOID lpParameter, DWORD dwCreationFlags, LPDWORD unusedThreadId);
+	//WINBASEAPI ULONGLONG WINAPI GetTickCount64(VOID);
+	//WINBASEAPI _Ret_maybenull_ HANDLE WINAPI CreateEventExW(_In_opt_ LPSECURITY_ATTRIBUTES lpEventAttributes, _In_opt_ LPCWSTR lpName, _In_ DWORD dwFlags, _In_ DWORD dwDesiredAccess);
+//#endif
 #ifdef __cplusplus
 }
 #endif

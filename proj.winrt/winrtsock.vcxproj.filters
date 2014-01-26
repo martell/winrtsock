@@ -49,6 +49,8 @@
     <ClCompile Include="..\src\inet_pton.cpp" />
     <ClCompile Include="..\src\gethostbyaddr.cpp" />
     <ClCompile Include="..\src\BufferReader.cpp" />
+    <ClCompile Include="..\dllmain.cpp" />
+    <ClCompile Include="..\src\_beginthreadex.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\winrtsock.h" />
@@ -61,5 +63,8 @@
     <ClInclude Include="..\src\include\BufferReader.h" />
     <ClInclude Include="..\src\include\InternalStreamSocket.h" />
     <ClInclude Include="..\include\winrtsockEx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\winrtsock.def" />
   </ItemGroup>
 </Project>

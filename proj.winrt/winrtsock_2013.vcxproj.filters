@@ -50,7 +50,8 @@
     <ClCompile Include="..\src\gethostbyaddr.cpp" />
     <ClCompile Include="..\src\BufferReader.cpp" />
     <ClCompile Include="..\dllmain.cpp" />
-    <ClCompile Include="..\src\__beginthreadex.cpp" />
+    <ClCompile Include="..\src\_beginthreadex.cpp" />
+    <ClCompile Include="..\src\GetTickCount64.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\winrtsock.h" />

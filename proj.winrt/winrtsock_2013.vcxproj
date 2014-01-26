@@ -81,7 +81,7 @@
     <ClCompile Include="..\src\SocketHandle.cpp" />
     <ClCompile Include="..\src\winrtsock.cpp" />
     <ClCompile Include="..\src\WSACleanup.cpp" />
-    <ClCompile Include="..\src\__beginthreadex.cpp" />
+    <ClCompile Include="..\src\_beginthreadex.cpp" />
     <ClCompile Include="..\src\__WSAFDIsSet.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +160,7 @@
     <GenerateManifest>false</GenerateManifest>
     <OutDir>$(SolutionDir)WinRT\redist\vs2013\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
     <IntDir>WinRT\vs2013\$(Platform)\$(Configuration)\</IntDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <GenerateManifest>false</GenerateManifest>

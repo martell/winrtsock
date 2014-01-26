@@ -6,7 +6,7 @@ using namespace Platform;
 using namespace Windows::Foundation;
 using namespace Windows::System::Threading;
 
-HANDLE WINAPI __beginthreadex(LPSECURITY_ATTRIBUTES unusedThreadAttributes, SIZE_T unusedStackSize, LPTHREAD_START_ROUTINE lpStartAddress, LPVOID lpParameter, DWORD dwCreationFlags, LPDWORD unusedThreadId){
+HANDLE WINAPI _beginthreadex(LPSECURITY_ATTRIBUTES unusedThreadAttributes, SIZE_T unusedStackSize, LPTHREAD_START_ROUTINE lpStartAddress, LPVOID lpParameter, DWORD dwCreationFlags, LPDWORD unusedThreadId){
 	// Create a handle for the new thread.
 
 	HANDLE threadHandle = CreateEventEx(nullptr, nullptr, CREATE_EVENT_MANUAL_RESET, EVENT_ALL_ACCESS);
